@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class CoreBrushUp1 {
 
@@ -18,7 +19,7 @@ public class CoreBrushUp1 {
 		 
 		 for(int i = arr.length - 1; i>=0; i--)
 		 {
-			 System.out.println(arr[i]);
+			 System.out.println(Arrays.toString(arr));
 		 }
 		 
 		 String [] name = {"Vinayak","Bhatte"};
@@ -37,7 +38,7 @@ public class CoreBrushUp1 {
 			 }	 
 		 }	
 		 
-		 ArrayList<Integer> A = new ArrayList<Integer>();    // Using ArrayList you can add more objects to an array. Flexible. List in Python
+		 ArrayList<Integer> A = new ArrayList<Integer>();    // Using ArrayList you can add more objects to an array. Flexible. List in Python. ArrayList is like a method
 		 													//Explicitly telling this array will store only Integers
 		 A.add(1);
 		 System.out.println(A); 

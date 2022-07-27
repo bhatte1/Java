@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ScratchPad {
 
@@ -11,7 +12,8 @@ public class ScratchPad {
 		}
 		
 		String[] s1 = s.split(" ");				//each word is getting reversed
-		System.out.println(s1);
+		//System.out.println(Arrays.toString(s1));
+		System.out.println(s1[1]);
 		for (int i = s1.length-1; i>=0; i--) {
 			System.out.println(s1[i]);
 		}
@@ -19,6 +21,9 @@ public class ScratchPad {
 		ArrayList<String> s2 = new ArrayList<String>();
 		String[] s21 = s.split(" ");
 		System.out.println(s21);
+		
+		int[] arr1 = {1,3,4,5,6,7};
+		System.out.println(arr1[4]);
 		
 		
 

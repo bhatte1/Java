@@ -4,8 +4,9 @@ public class ReverseString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String s = "Vinayak Bhatte is learning java";
+		ReverseString str = new ReverseString();
 		
+		String s = str.getReverse();		
 		for(int i = s.length()-1; i>= 0; i--) {   // each letter is getting reversed
 			System.out.println(s.charAt(i));
 		}
@@ -15,6 +16,11 @@ public class ReverseString {
 			System.out.println(s1[i]);
 		}
 		
+	}
+	
+	public static String getReverse() {
+		
+		return "Vinayak Bhatte is learning java";
 	}
 
 }
