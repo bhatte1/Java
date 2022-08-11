@@ -10,12 +10,12 @@ public class CoreBrushUp1 {
 		 System.out.println(a);
 		 
 		 int[] arr = new int[5];   //memory is assigned using "new" to arr, [] means you are adding multiple values
-		 						// arr is constant here. you cannot add more than 5 elements. hence it is like tuple in python
+		 						// arr is constant here. you cannot add more than 5 elements.
 		 arr[0] = 1;
 		 arr[1] = 2;
 		 arr[2] = 3;
 		 arr[3] = 4;
-		 arr[4] = 5;
+		 //arr[4] = 5;
 		 
 		 for(int i = arr.length - 1; i>=0; i--)
 		 {
@@ -44,6 +44,15 @@ public class CoreBrushUp1 {
 		 System.out.println(A); 
 		 int b = A.get(0);
 		 System.out.println(b); 
+		 
+		 int [] arry4 = {0,1,2,3,4,5};
+		 
+		 for(int i = 0; i<arry4.length; i++)
+		 
+		 System.out.println(arry4[i]);
+		 
+		 
+		 
 
 	}
 
