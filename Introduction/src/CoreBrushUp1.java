@@ -35,7 +35,10 @@ public class CoreBrushUp1 {
 		 for(int ev1: eve) {
 			 if (ev1%2 == 0){				//% means remainder
 				 System.out.println(ev1); 
-			 }	 
+			 }	
+			 else {
+				 System.out.println(ev1+"not multiple of 2");
+			 }
 		 }	
 		 
 		 ArrayList<Integer> A = new ArrayList<Integer>();    // Using ArrayList you can add more objects to an array. Flexible. List in Python. ArrayList is like a method

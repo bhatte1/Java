@@ -14,10 +14,10 @@ public class SelIntroduction {
 		
 		System.setProperty("webdriver.chrome.driver", "/Users/vinayakbhatte/Java/chromedriver");   //system.setproperty(Key,Value)
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://rahulshettyacademy.com/");
+		driver.get("https://rahulshettyacademy.com/locatorspractice");
 		System.out.println(driver.getTitle());
-		driver.close();
-		
+		//driver.close();
+	 	
 
 	}
 
