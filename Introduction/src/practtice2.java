@@ -1,15 +1,19 @@
-import java.util.ArrayList;
+import java.util.*;
+
 
 public class practtice2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stu
 		
-		ArrayList eve = new ArrayList();
+		//ArrayList a = new ArrayList();
 		
-		//int eve = {1,2,3,4,5,6};
-		
+		ArrayList<Integer> a = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8,9,10));
+		a.add(11);
 
+		System.out.println(a);
+
+		
 	}
 
 }
