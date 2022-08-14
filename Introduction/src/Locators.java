@@ -40,15 +40,12 @@ public class Locators {
 	}
 	
 	public static String getPassword(WebDriver driver) throws InterruptedException {
-		//driver.get("https://rahulshettyacademy.com/locatorspractice/");
-		//driver.findElement(By.linkText("Forgot your password?")).click();
-		//Thread.sleep(1000);
-		//driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
 		String text = driver.findElement(By.cssSelector("form p")).getText();
-		//String text = driver.findElement(By.xpath("//p[@class='infoMsg']")).getText();
 		String [] splitText = text.split(" ");
 		return splitText[4].substring(1,splitText[4].length()-1);	
 		
 	}
 
 }
+
+

@@ -30,3 +30,8 @@ public class Locators1 {
 	}
 
 }
+
+//header/div/button[1]/following-sibling::button[1]    Sibling to sibling
+//header/div/button[1]/parent::div/parent::header			child to parent   not in CSS
+
+
