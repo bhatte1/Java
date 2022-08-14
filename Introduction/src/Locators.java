@@ -20,16 +20,15 @@ public class Locators {
 		String a = driver.findElement(By.cssSelector("p.error")).getText();
 		System.out.println(a);
 		driver.findElement(By.linkText("Forgot your password?")).click();
-		//Thread.sleep(5000);
+		//Thread.sleep(5000)
 		driver.findElement(By.xpath("//input[@placeholder='Name']")).sendKeys("Vinayak");
 		driver.findElement(By.cssSelector("input[placeholder='Email']")).sendKeys("vin@gmail.com");
 		driver.findElement(By.xpath("//input[@type='text'][2]")).clear();
 		driver.findElement(By.cssSelector("input[type='text']:nth-child(3)")).sendKeys("vinayak@gmail.com");
 		driver.findElement(By.xpath("//form/input[3]")).sendKeys("5454534546565");
 		driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
-		String text = driver.findElement(By.cssSelector("form p")).getText();
-		String [] splitText = text.split(" ");
-		String actualPassword = splitText[4].substring(1,splitText[4].length()-1);
+		String actualPassword = getPassword(driver);
+		System.out.println(actualPassword);
 		driver.findElement(By.xpath("//button[@class='go-to-login-btn']")).click();
 		Thread.sleep(1000);
 		driver.findElement(By.cssSelector("#inputUsername")).sendKeys("Vinayak");
@@ -38,14 +37,18 @@ public class Locators {
 		driver.findElement(By.id("chkboxTwo")).click();
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		
+	}
+	
+	public static String getPassword(WebDriver driver) throws InterruptedException {
+		//driver.get("https://rahulshettyacademy.com/locatorspractice/");
+		//driver.findElement(By.linkText("Forgot your password?")).click();
+		//Thread.sleep(1000);
+		//driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
+		String text = driver.findElement(By.cssSelector("form p")).getText();
+		//String text = driver.findElement(By.xpath("//p[@class='infoMsg']")).getText();
+		String [] splitText = text.split(" ");
+		return splitText[4].substring(1,splitText[4].length()-1);	
 		
-		
-		
-
-		
-		
-		
-
 	}
 
 }
