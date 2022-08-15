@@ -14,8 +14,9 @@ public class DynamicDropdown {
 		driver.findElement(By.xpath("//a[@text='Bengaluru (BLR)']")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("(//a[@text='Chennai (MAA)'])[2]")).click();
+		//or
+		driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='MAA']")).click();
 
-		
 
 	}
 
