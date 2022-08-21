@@ -10,8 +10,11 @@ public class practtice2 {
 		
 		ArrayList<Integer> a = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8,9,10));
 		a.add(11);
+		a.remove(4);
 
 		System.out.println(a);
+		
+		
 
 		
 	}

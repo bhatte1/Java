@@ -25,6 +25,14 @@ public class ScratchPad {
 		int[] arr1 = {1,3,4,5,6,7};
 		System.out.println(arr1[4]);
 		
+		ArrayList<String> s3 = new ArrayList<String>();
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
