@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 
 public class practtice2 {
@@ -8,10 +9,15 @@ public class practtice2 {
 		
 		//ArrayList a = new ArrayList();
 		
-		ArrayList<Integer> a = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8,9,10));
+		ArrayList<Integer> a = new ArrayList<>(Arrays.asList(1, 2, 78, 41, 5, 6, 7, 8,9,10));
 		a.add(11);
 		a.remove(4);
 		a.add(10);
+		a.add(89);
+		int index = 3;
+		//a= ArrayUtils.remove(a,index);
+		System.out.println(a.indexOf(4));
+		
 
 		System.out.println(a);
 		
