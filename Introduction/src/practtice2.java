@@ -14,6 +14,7 @@ public class practtice2 {
 		a.remove(4);
 		a.add(10);
 		a.add(89);
+		a.add(90);
 		int index = 3;
 		//a= ArrayUtils.remove(a,index);
 		System.out.println(a.indexOf(4));
