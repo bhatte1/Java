@@ -27,6 +27,7 @@ public class ScratchPad {
 		
 		ArrayList<String> s3 = new ArrayList<String>();
 		s3.add("Vinayak");
+		s3.add("Bhatte");
 		System.out.println(s3);
 		
 		
