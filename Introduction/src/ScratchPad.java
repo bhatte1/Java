@@ -29,6 +29,7 @@ public class ScratchPad {
 		s3.add("Vinayak");
 		s3.add("Bhatte");
 		s3.remove(1);
+		s3.add("Megha");
 		System.out.println(s3);
 		
 		
