@@ -8,14 +8,17 @@ public class MethodsDemo {
 		String name = d.getData();
 		System.out.println(name);
 
-		//MethodsDemo2 d1 = new MethodsDemo2();
-		//d1.getUserData();
-		getData2();
+		MethodsDemo2 d1 = new MethodsDemo2();
+		d1.getPicture1();
+		
+		d.getData2();
+		
+		
 		}
 		public String getData()
 		{
 
-		System.out.println ("hello world");
+		
 
 		return "rahul shetty";
 
@@ -26,8 +29,7 @@ public class MethodsDemo {
 		{
 
 		System.out.println ("hello world");
-
-		return "rahul shetty";
+		return null;
 
 		}
 
