@@ -1,24 +1,23 @@
 
-public class MethodsDemo {
+public class MethodsDemo extends MethodsDemo2{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		MethodsDemo d = new MethodsDemo();
-		String name = d.getData();
-		System.out.println(name);
-
-		MethodsDemo2 d1 = new MethodsDemo2();
+		MethodsDemo2 d1 = new MethodsDemo();
+		//MethodsDemo2 d2 = new MethodsDemo2();
+		//MethodsDemo3 d3 = new MethodsDemo3();
+		
+		
+		//d1.getData2();
+		
 		d1.getPicture1();
 		
-		d.getData2();
 		
 		
 		}
 		public String getData()
 		{
-
-		
 
 		return "rahul shetty";
 
@@ -32,6 +31,7 @@ public class MethodsDemo {
 		return null;
 
 		}
+		
 
 	}
 

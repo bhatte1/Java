@@ -11,7 +11,7 @@ public class usTraffic implements CentralTraffic{
 		a.redStop();
 		a.yellowAlert();
 		
-		// a.walking() does not work since "waliking" method is created inside ustraffic method but we are using methods from CentralTraffic
+		// a.walking() does not work since "waliking" method is created inside ustraffic method but we are implementing methods from CentralTraffic
 		
 		usTraffic b = new usTraffic();
 		

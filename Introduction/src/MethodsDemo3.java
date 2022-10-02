@@ -5,5 +5,16 @@ public class MethodsDemo3 {
 		// TODO Auto-generated method stub
 
 	}
+	
+	public static String getPicture1()
+
+	{
+
+	System.out.println ("Salam");
+	return null;
+
+
+
+	}
 
 }
