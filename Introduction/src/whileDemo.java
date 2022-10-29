@@ -5,13 +5,8 @@ public class whileDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		int [] arry4 = {0,1,2,3,4,5};
 		
-		for (int i = 0; i<4; i ++) {
-			for(int j = 1; j<11;j++) {
-				
-				System.out.println(j);
-			}
-		}
 		
 		
 		

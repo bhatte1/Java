@@ -51,8 +51,9 @@ public class CoreBrushUp1 {
 		 int [] arry4 = {0,1,2,3,4,5};
 		 
 		 for(int i = 0; i<arry4.length; i++)
+			 System.out.println(arry4[i]);
 		 
-		 System.out.println(arry4[i]);
+		 
 		 
 		 
 		 
