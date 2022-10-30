@@ -32,6 +32,7 @@ public class CoreBrushUp1 {
 		 
 		 int eve [] = {1,2,3,4,5,6,7,8,122};
 		 
+		 
 		 for(int ev1: eve) {
 			 if (ev1%2 == 0){				//% means remainder
 				 System.out.println(ev1); 
