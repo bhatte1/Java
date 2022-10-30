@@ -25,7 +25,8 @@ public class constructorDemo {
 		// TODO Auto-generated method stub
 		//compiler will call default implicit constructor if you have not defined constructor block
 		
-		constructorDemo cd = new constructorDemo(5,6);
+		constructorDemo cd = new constructorDemo(5,6
+				);
 		cd.getData();
 
 	}
