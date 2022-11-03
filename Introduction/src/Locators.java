@@ -36,7 +36,7 @@ public class Locators {
 		driver.findElement(By.id("chkboxOne")).click();
 		driver.findElement(By.id("chkboxTwo")).click();
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
-		
+		driver.findElement(By.xpath("//div[@class='dropdown' and @id='vinayak']"));
 	}
 	
 	public static String getPassword(WebDriver driver) throws InterruptedException {
