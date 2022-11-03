@@ -37,6 +37,10 @@ public class Locators {
 		driver.findElement(By.id("chkboxTwo")).click();
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		driver.findElement(By.xpath("//div[@class='dropdown' and @id='vinayak']"));
+		
+		driver.findElement(By.xpath("//a[text()='test2']//parent::td[@class='xyz']//preceding-sibling::td[@class='data']//input[@name='vinayak]")).click();
+		
+		driver.findElement(By.xpath("//a[text()='test2']//parent::td[@class='xyz']//forward-sibling::td[@class='data']//input[@name='vinayak]")).click();
 	}
 	
 	public static String getPassword(WebDriver driver) throws InterruptedException {
