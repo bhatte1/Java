@@ -12,6 +12,7 @@ public class arrayListExample {
 		
 		A.add(12);
 		A.add(16);
+		A.add(13);
 		
 		System.out.print(A.contains(17));
 		
