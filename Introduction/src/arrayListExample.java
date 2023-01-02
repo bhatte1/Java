@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class arrayListExample {
 
@@ -14,11 +15,20 @@ public class arrayListExample {
 		A.add(16);
 		A.add(13);
 		A.remove(0);
-
 		
-		System.out.print(A);
+		int[] arr = new int[1];
+		
+		arr[0] = 1;
+		
+
+
+		System.out.println(Arrays.toString(arr));
+		
+		System.out.println(A.indexOf(16)) ;
 		
 
 	}
+
+
 
 }
