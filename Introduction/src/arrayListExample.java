@@ -9,6 +9,8 @@ public class arrayListExample {
 		//can accept duplicate values
 		//ArrayList has dynamic size whereas Array is fixed
 		
+		arrayListExample rev = new arrayListExample();
+		
 		ArrayList<Integer> A = new ArrayList<Integer>();  
 		
 		A.add(12);
@@ -19,16 +21,34 @@ public class arrayListExample {
 		int[] arr = new int[1];
 		
 		arr[0] = 1;
-		
 
-
-		System.out.println(Arrays.toString(arr));
+		//System.out.println(Arrays.toString(arr));
 		
-		System.out.println(A.indexOf(16)) ;
+		//System.out.println(A.indexOf(16)) ;  
 		
+		rev.reverseMyName();
 
+	}
+	
+	public String reverseMyName() {
+	     String v = "Vinayak";
+		 
+		 String[] m = v.split("");
+		 
+		 String w = "";
+		 
+		 for(int i = m.length-1; i>=0; i--) {
+			 
+			 w = w + m[i];
+		
+		 }
+		 
+		 return v;
+		
+		
 	}
 
 
 
 }
+ 

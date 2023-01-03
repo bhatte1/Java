@@ -6,7 +6,7 @@ public class ReverseString {
 		
 		//ReverseString str = new ReverseString();
 		
-		String s = getReverse();	  // you have used staic word in method creation below and hence you can use without object creation of that method directly as shown 	
+		String s = getReverse();	  // you have used static word in method creation below and hence you can use without object creation of that method directly as shown 	
 		for(int i = s.length()-1; i>= 0; i--) {   // each letter is getting reversed
 			System.out.println(s.charAt(i));
 		}
