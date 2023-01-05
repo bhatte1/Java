@@ -16,7 +16,7 @@ public class usTraffic implements CentralTraffic, IndiaTraffic, BangaloreTraffic
 		
 		// a.walking() does not work since "waliking" method is created inside ustraffic method but we are implementing methods from CentralTraffic
 		
-		IndiaTraffic b = new usTraffic();
+		usTraffic b = new usTraffic();
 		
 		b.walking();
 		

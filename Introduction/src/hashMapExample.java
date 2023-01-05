@@ -13,6 +13,7 @@ public class hashMapExample {
 		
 		hm.put(0,"Vinayak");
 		hm.put(1, "Bhatte");
+		hm.put(2, "Meghana");
 		
 		System.out.println(hm.get(1));
 		

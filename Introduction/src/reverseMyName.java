@@ -4,13 +4,19 @@ public class reverseMyName {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+
+		
 		String name = "mom";
 		
 		reverseMyName rev = new reverseMyName();
 		
 		System.out.println(rev.reverseName(name));
 		
-		if (rev.reverseName(name).equals(name)){
+		//== tests for reference equality (whether they are the same object).
+
+		//.equals() tests for value equality (whether they contain the same data).
+		
+		if (rev.reverseName(name).equals(name)){     
 				
 				System.out.print("It is a palindrome");
 		}
@@ -26,7 +32,6 @@ public class reverseMyName {
 		
 		String[] splitName = myName.split("");
 		
-		
 		for (int i = splitName.length-1; i >=0; i--) {
 			
 			reveresedName = reveresedName + splitName[i];
@@ -34,7 +39,9 @@ public class reverseMyName {
 		}
 		
 		return reveresedName;
-		
+	
 	}
-
+	
+	
+	
 }
