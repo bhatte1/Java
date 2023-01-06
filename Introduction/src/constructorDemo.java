@@ -14,9 +14,14 @@ public class constructorDemo {
 	
 	public constructorDemo(int a , int b) {
 		
-		System.out.println("I am in parameterized constructor");
+		System.out.println("I am in parameterized constructor" + a + b);
 	}
 	
+public constructorDemo(String str) {
+		
+		System.out.println("I am in " + str);
+	}
+
 	public void getData() {
 		System.out.println("I am the method");
 	}
@@ -25,8 +30,8 @@ public class constructorDemo {
 		// TODO Auto-generated method stub
 		//compiler will call default implicit constructor if you have not defined constructor block
 		
-		constructorDemo cd = new constructorDemo(5,6
-				);
+		constructorDemo cd = new constructorDemo(5,6);
+		constructorDemo dc = new constructorDemo("Vin");
 		cd.getData();
 
 	}

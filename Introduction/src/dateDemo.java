@@ -13,7 +13,7 @@ public class dateDemo {
 		SimpleDateFormat sdf = new SimpleDateFormat("EEEE, MMMM dd, yyyy");
 		
 		System.out.println(sdf.format(d));
-		System.out.print(d.toString());
+		System.out.print(d);
 		
 		Calendar cal = Calendar.getInstance();     //get instance of the calendar
 		
