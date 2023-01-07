@@ -32,7 +32,7 @@ public class StaticVar {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stubwhat is fibo
 
 		StaticVar obj = new StaticVar("Vinayak","Morgantown");
 		StaticVar obj1 = new StaticVar("Kyle","Morgantown");    

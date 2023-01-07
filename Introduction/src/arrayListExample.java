@@ -13,8 +13,8 @@ public class arrayListExample {
 		
 		ArrayList<Integer> A = new ArrayList<Integer>();  
 		
-		A.add(12);
-		A.add(16);
+		A.add(12+16);
+		A.add(16+13);
 		A.add(13);
 		A.remove(0);
 		
@@ -22,7 +22,7 @@ public class arrayListExample {
 		
 		arr[0] = 1;
 
-		//System.out.println(Arrays.toString(arr));
+		System.out.println(A.toString());
 		
 		//System.out.println(A.indexOf(16)) ;  
 		

@@ -12,6 +12,7 @@ super();// this should be always be at first line
 System.out.println("child class construtor");
 
 }
+
 public void getStringdata()
 {
 System.out.println(name);
