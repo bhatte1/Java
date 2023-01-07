@@ -1,6 +1,7 @@
 package practice1;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class fibinnico {
 
@@ -9,43 +10,28 @@ public class fibinnico {
 		
 		fibinnico F = new fibinnico();
 		
-		System.out.print(F.getFibinnico(6));
-		
-		int length = 6;
-		
-		int array[] = new int[length+1];
-		
-		//ArrayList<Integer> A = new ArrayList<Integer>();
-		array[0] = 0;
-		array[1] = 1;
-		
-		for(int i=2; i<=length; i++) {
-			
-			array[i] = array[i-1] + array[i-2];		
-		}
-		
-		System.out.print(array[5]);
-		
+		System.out.print(Arrays.toString(F.getFibinnico(7)));
+
 	}
 	
 	public int[] getFibinnico(int length) {
 		
-		int array[] = new int[length+1];
-		
 		ArrayList<Integer> A = new ArrayList<Integer>();
 		
-		A.add(0);
-		A.add(1);
-		array[0] = 0;
-		array[1] = 1;
+		int a[] = new int[length];
 		
-		for(int i=2; i<=length; i++) {
-
+		a[0] = 0;
+		a[1] = 1;
+		
+		
+		for(int i=2; i<length; i++) {
 			
-			//array[i] = array[i-1] + array[i-2];		
+			a[i] = a[i-1] + a[i-2];
+		
+		
 		}
 		
-		return array;
+		return a;
 		
 		
 	}
