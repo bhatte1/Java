@@ -15,8 +15,15 @@ public class arrayDemo {
 		a[3] = 43;
 		a[4] = 7;
 		
-		System.out.print(a[3]);
+		//System.out.print(a[3]);
+		
+		eve[9] = 23;
+		
+		for(int s: eve) { 
+				
+				System.out.println(s);
 
+	}
 	}
 
 }

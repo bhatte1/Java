@@ -38,7 +38,7 @@ public class CoreBrushUp1 {
 				 System.out.println(ev1); 
 			 }	
 			 else {
-				 System.out.println(ev1+"not multiple of 2");
+				 System.out.println(ev1+" not multiple of 2");
 			 }
 		 }	
 		 
@@ -46,6 +46,7 @@ public class CoreBrushUp1 {
 		 													//Explicitly telling this array will store only Integers
 		 A.add(1);
 		 System.out.println(A); 
+		 
 		 int b = A.get(0);
 		 System.out.println(b); 
 		 

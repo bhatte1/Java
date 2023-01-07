@@ -22,9 +22,9 @@ public class arrayListExample {
 		
 		arr[0] = 1;
 
-		System.out.println(A.toString());
+		System.out.println(A);
 		
-		//System.out.println(A.indexOf(16)) ;  
+		System.out.println(A.indexOf(13)) ;  
 		
 		rev.reverseMyName();
 
