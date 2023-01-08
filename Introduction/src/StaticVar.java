@@ -9,7 +9,7 @@ public class StaticVar {
 
 	
 	
-	StaticVar(String name, String city){
+	public StaticVar(String name, String city){
 		
 		this.name = name;   //called local variables
 		this.city = city;
@@ -30,8 +30,10 @@ public class StaticVar {
 		
 		System.out.println(city);   // static methods will accept only accept static variables.
 	}
+	
+	public static void main(String [] args){
 
-	public static void main(String[] args) {
+	  {
 		// TODO Auto-generated method stubwhat is fibo
 
 		StaticVar obj = new StaticVar("Vinayak","Morgantown");
@@ -42,6 +44,8 @@ public class StaticVar {
 		obj.name = "Bob";        	//if it is non static. this is the way to call
 		StaticVar.country = "India"; //if it is static this is the way to call
 		
+	}
+	  
 	}
 
 }
