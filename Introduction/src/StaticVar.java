@@ -1,5 +1,8 @@
 
-public class StaticVar {
+public class StaticVar{
+	
+	
+	//static variables vs Instance variables
 	
 	String name;  //Instance variables
 	static String city;
@@ -12,7 +15,7 @@ public class StaticVar {
 	public StaticVar(String name, String city){
 		
 		this.name = name;   //called local variables
-		this.city = city;
+		this.city = city;  //instance variables is actvated above with this key word
 		i++;
 		j++;
 		System.out.println(i);
@@ -38,6 +41,10 @@ public class StaticVar {
 
 		StaticVar obj = new StaticVar("Vinayak","Morgantown");
 		StaticVar obj1 = new StaticVar("Kyle","Morgantown");    
+		thisDemo tDemo = new thisDemo();
+		
+		tDemo.getData();
+		
 		obj.getAddress();
 		obj1.getAddress();		// getAddress is not static hence we need to create an object of the class and then call getAddress. 
 		StaticVar.getCity();      // no need to create object of a class for static methods. Directly we can access using class name dot.

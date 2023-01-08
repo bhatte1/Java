@@ -4,7 +4,7 @@ public class MethodsDemo extends MethodsDemo2{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		MethodsDemo2 d1 = new MethodsDemo();
+		MethodsDemo d1 = new MethodsDemo();
 		//MethodsDemo2 d2 = new MethodsDemo2();
 		//MethodsDemo3 d3 = new MethodsDemo3();
 		

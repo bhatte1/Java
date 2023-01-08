@@ -9,3 +9,5 @@ public class finalDemo {
 	}
 
 }
+
+//final can be used in class level, method level and variable level which make sure it final and you can use the name, method and variable again.
