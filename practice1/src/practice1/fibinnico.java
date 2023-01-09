@@ -16,6 +16,8 @@ public class fibinnico {
 		System.out.println(F.fiboArryaList(l));
 	}
 	
+	//using array
+	
 	public int[] getFibinnico(int length) {
 		
 		int a[] = new int[length];
