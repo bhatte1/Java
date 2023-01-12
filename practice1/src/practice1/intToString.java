@@ -8,6 +8,8 @@ public class intToString {
 		intToString is = new intToString();  
 		
 		is.getIntToStr();
+		
+		is.getStrToInt();
  
 	}
 	
@@ -22,5 +24,14 @@ public class intToString {
 		
 	}
 	
+	private void getStrToInt() {
+		 
+		String str = "10";
+		
+		int iString = Integer.parseInt(str);
+		
+		System.out.println(iString);
+		
+	}
 
 }
