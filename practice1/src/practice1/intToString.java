@@ -10,7 +10,8 @@ public class intToString {
 		is.getIntToStr();
 		
 		is.getStrToInt();
- 
+		
+		is.getIntToStr();
 	}
 	
 	private void getIntToStr() {

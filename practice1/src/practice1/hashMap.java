@@ -1,6 +1,8 @@
 package practice1;
 
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.Map;
 
 public class hashMap {
 
@@ -19,16 +21,29 @@ public class hashMap {
 		
 		String str = "abcddbsabe";
 		
-		HashMap<String, Integer> hMap = new HashMap<>();
+		HashMap<Character, Integer> hMap = new HashMap<>();
 		
 		for(int i = 0; i <= str.length(); i++) {
 			
-			hMap.put("Vinayak",i);
+			Character character = str.charAt(i);
 			
-			System.out.println(hMap);
+			if(hMap.containsKey(character)){
+				
+				Collection<Integer> key = hMap.values();
+				
+				hMap.put(character,1+key);
+				
+			}
+			
+			else {
+				hMap.put(character,i);
+			}
+			
+			
+			
 		}
 		
-		
+		System.out.println(hMap);
 		
 		
 		
