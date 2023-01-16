@@ -6,12 +6,13 @@ public class hashSetExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//Hash set does not gurantee order
+		//Hash set does not gurantee order 
 		HashSet<String> hs = new HashSet<String>();
 		
-		hs.add("Vianayk");
+		hs.add("Vinayak");
 		hs.add("Bhatte");
 		hs.add("Meenakshi");
+		hs.remove("Vinayak");
 		
 		Iterator<String> i = hs.iterator();
 		
