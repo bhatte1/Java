@@ -1,6 +1,8 @@
 package practice1;
 
 public class intToString {
+	
+	int a = 2000;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,14 +13,13 @@ public class intToString {
 		
 		is.getStrToInt();
 		
-		is.getIntToStr();
 	}
 	
 	private void getIntToStr() {
 		
-		int a = 10;
+		int a = 1000;
 		
-		String bString = Integer.toString(a);
+		String bString = Integer.toString(this.a);
 		
 		System.out.println(bString);
 		

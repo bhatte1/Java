@@ -1,7 +1,9 @@
 package practice1;
 
+import java.security.KeyStore.Entry;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 public class hashMap {
@@ -22,28 +24,14 @@ public class hashMap {
 		String str = "abcddbsabe";
 		
 		HashMap<Character, Integer> hMap = new HashMap<>();
-		
-		for(int i = 0; i <= str.length(); i++) {
-			
-			Character character = str.charAt(i);
-			
-			if(hMap.containsKey(character)){
-				
-				Collection<Integer> key = hMap.values();
-				
-				hMap.put(character,1+key);
-				
-			}
-			
-			else {
-				hMap.put(character,i);
-			}
+	
+		for(Map.entry<String, Integer> entry = hMap.entrySet() ) {
 			
 			
 			
 		}
 		
-		System.out.println(hMap);
+		
 		
 		
 		
