@@ -3,6 +3,7 @@ package practice1;
 public class intToString {
 	
 	int a = 2000;
+	String str = "Vinayak";
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -31,6 +32,8 @@ public class intToString {
 		String str = "10";
 		
 		int iString = Integer.parseInt(str);
+		
+		System.out.println(this.str);
 		
 		System.out.println(iString);
 		
