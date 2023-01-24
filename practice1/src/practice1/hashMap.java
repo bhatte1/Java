@@ -25,9 +25,9 @@ public class hashMap {
 		
 		HashMap<Character, Integer> hMap = new HashMap<>();
 	
-		for(Map.entry<String, Integer> entry = hMap.entrySet() ) {
+		for(int i = 0 ; i <= str.length()-1; i++ ) {
 			
-			
+			 System.out.println(str.charAt(i));
 			
 		}
 		
