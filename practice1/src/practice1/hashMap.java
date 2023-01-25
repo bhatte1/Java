@@ -15,6 +15,8 @@ public class hashMap {
 		
 		hm.getHashMap();
 		
+		
+		
 
 	}
 
@@ -27,9 +29,12 @@ public class hashMap {
 	
 		for(int i = 0 ; i <= str.length()-1; i++ ) {
 			
-			 System.out.println(str.charAt(i));
+			hMap.put(str.charAt(i), 1);
+			 
 			
 		}
+		
+		System.out.println(hMap);
 		
 		
 		
