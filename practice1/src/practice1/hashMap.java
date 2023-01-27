@@ -23,14 +23,13 @@ public class hashMap {
 	
 	public void getHashMap() {
 		
-		String str = "abcddbsabe";
+		String str = "abcdse";
 		
 		HashMap<Character, Integer> hMap = new HashMap<>();
 	
 		for(int i = 0 ; i <= str.length()-1; i++ ) {
 			
 			hMap.put(str.charAt(i), 1);
-			 
 			
 		}
 		
