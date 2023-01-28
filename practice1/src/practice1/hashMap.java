@@ -1,5 +1,6 @@
 package practice1;
 
+import java.awt.RenderingHints.Key;
 import java.security.KeyStore.Entry;
 import java.util.Collection;
 import java.util.HashMap;
@@ -23,13 +24,34 @@ public class hashMap {
 	
 	public void getHashMap() {
 		
-		String str = "abcdse";
+		String str = "abbcdddse";
 		
 		HashMap<Character, Integer> hMap = new HashMap<>();
 	
 		for(int i = 0 ; i <= str.length()-1; i++ ) {
 			
+			/*hMap.merge(str.charAt(i),1, Integer::sum);
+			
+			if(hMap.containsKey(str.charAt(i))) {
+				
+				hMap.merge(str.charAt(i),1, Integer::sum);
+				
+			}
+			
+			else {
+			
 			hMap.put(str.charAt(i), 1);
+			}*/
+			
+			Integer count = hMap.get(str.charAt(i));
+			if (count == null) {
+				hMap.put(str.charAt(i), 1);
+				
+			}
+			else {
+				
+				hMap.put(str.charAt(i), count + 1);
+			}
 			
 		}
 		
