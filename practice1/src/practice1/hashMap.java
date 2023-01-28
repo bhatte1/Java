@@ -44,6 +44,7 @@ public class hashMap {
 			}*/
 			
 			Integer count = hMap.get(str.charAt(i));
+			
 			if (count == null) {
 				hMap.put(str.charAt(i), 1);
 				
@@ -56,6 +57,13 @@ public class hashMap {
 		}
 		
 		System.out.println(hMap);
+		
+		//Integer currentInteger = hMap.get(key);
+		
+		//Integer valueObject = hMap.get('d');
+
+		
+		System.out.println(hMap.get('d'));
 		
 		
 		
