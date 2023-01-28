@@ -60,12 +60,21 @@ public class hashMap {
 		
 		//Integer currentInteger = hMap.get(key);
 		
-		//Integer valueObject = hMap.get('d');
+		Integer valueObject = hMap.get('d');
 
 		
-		System.out.println(hMap.get('d'));
+		System.out.println(valueObject);
 		
 		
+		for ( Map.Entry<Character, Integer> entry : hMap.entrySet()) {
+		    Character key = entry.getKey();
+		    Integer tab = entry.getValue();
+		    // do something with key and/or tab
+		    //System.out.println(key);
+		    System.out.println(tab);
+		    
+		    
+	}
 		
 		
 		
