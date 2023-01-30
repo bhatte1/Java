@@ -16,15 +16,18 @@ public class stringManupulation {
 	
 	public void getStringManupulated() {
 		
-		String aString = "hfdhdlkghl vinayak jeorjepo";
+		String aString = "hfdhdlkghlvinayakjeorjepo";
 		
 		//String[] splitaStrig = aString.split(" ");
 		
-		ArrayList<String>arrayList = new ArrayList<>(Arrays.asList(aString.split(" ")));
+		ArrayList<String>arrayList = new ArrayList<>(Arrays.asList(aString.split("")));
+		
+		String vinString = aString.substring(10,17);
+		 
 		
 		
 		
-		System.out.println(arrayList.get(1));
+		System.out.println(vinString);
 		
 		
 	}
