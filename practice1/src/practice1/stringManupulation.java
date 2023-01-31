@@ -24,10 +24,12 @@ public class stringManupulation {
 		
 		String vinString = aString.substring(10,17);
 		 
+		String joinArrayList = String.join("", arrayList);
 		
 		
+		System.out.println(arrayList);
 		
-		System.out.println(vinString);
+		System.out.println(joinArrayList);
 		
 		
 	}
