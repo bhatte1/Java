@@ -4,9 +4,12 @@ public class FirstAssignmentPart2 {
 	
 	public static void main(String [] args) {
 		
-		int a=1, b=2;
+		int i=19, j=29, k;
 		
-		System.out.println(--b - ++a + ++b - --a);
+		k = i-- - i++ + --j - ++j + --i - j-- + ++i - j++;
+		
+		System.out.println("j="+j);
+		System.out.println("k="+k);
 	
 	}
 
