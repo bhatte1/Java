@@ -4,11 +4,9 @@ public class FirstAssignmentPart2 {
 	
 	public static void main(String [] args) {
 		
-		int m = 0, n = 0;
+		double d = 1.5, D = 2.5;
 
-		int p = --m * --n * n-- * m--;
-
-		System.out.println(p);
+		System.out.println(d++ + ++D);
 	
 	}
 
