@@ -40,7 +40,7 @@ public class LoopsConcept {
 			//1 to 10:
 			//for(initialize; condition; inceremnt/decrement)
 			int j=1;
-			for( ; j<=10 ; ) {
+			for( ;j<=10 ; ) {
 				System.out.println(j);//1
 				j++;
 			}
