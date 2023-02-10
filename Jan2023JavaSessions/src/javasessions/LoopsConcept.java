@@ -76,6 +76,50 @@ public class LoopsConcept {
 			
 			//double, float, int, short, byte, long, char -- for/while
 			//WAP to print naveen 100 times
+			
+			for (float a = 1.1f ;a<5.0;a++) {
+				System.out.println(a);
+			}
+			
+				//use cases of while loop: 
+				//when number of iterations are not fixed -- while loop
+				//total links/images on the page
+				//webtable pagination 1 2 3 4...next
+				//webelement is loading on the page
+				//page load time out
+				//calendar: 
+				//build is running : 10, 1 hr , 2 hr, 30 mins
+				//read data from DB: SQL -- rows/colns 
+
+				
+				//use cases of for loop: 
+				//when number of iterations are fixed -- for loop
+				//month/days drop down --> 1 to 12
+				//category options --> 
+				//Arrays, Arraylist 
+				//excel file -- test data -- rows = 1 to rowSize()
+				//country drop down --> 1 to 230 ---> if name = brazil -- break;
+				//Read data : JSON/XML
+				//read data from DB: SQL -- rows/colns 
+				
+				//do-while loop:
+				int e = 1;
+				do {
+					e++;//11
+					System.out.println(e);//1
+					//break;
+					//e++;
+				}
+				while(e <=10);
+				
+				//use cases :
+				//1. webtable paginaton: check if element is already present in the table , click on it and end the loop
+				//2. go and check the element first and then start the while loop
+				//3. calendar: 
+				
+				
+				//4. for each
+				//5. streams
 		
 
 	}
