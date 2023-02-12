@@ -120,6 +120,14 @@ public class LoopsConcept {
 				
 				//4. for each
 				//5. streams
+				
+				
+				
+				for(int a =1; a<=9; a++) {
+					
+					System.out.println("I am Batman "+ a);
+					
+				}
 		
 
 	}
