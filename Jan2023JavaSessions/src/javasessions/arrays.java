@@ -8,8 +8,17 @@ public class arrays {
 		
 		int a[] = new int[3];
 		
-		a[4] = 200;
-		System.out.println(a[4]);
+		a[2] = 200;
+		System.out.println(a[2]);
+		a[2] = 300;
+		System.out.println(a[2]);
+		
+		
+		Object object[] = {1,34,56,"tom",33.4};
+		
+		for(Object o : object) {
+			System.out.println(o);
+		}
 		
 
 	}
