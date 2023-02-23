@@ -1,5 +1,7 @@
 package practice1;
 
+import java.util.Arrays;
+
 public class reverseString {
 
 	public static void main(String[] args) {
@@ -7,9 +9,11 @@ public class reverseString {
 		
 		reverseString rs = new reverseString();
 		
-		System.out.print(rs.getReversed("Vinayak"));
+		//System.out.print(Arrays.toString(rs.getReversed("Vinayak")));
 		
+		String revString = rs.getReversed("vinayak");
 		
+		System.out.println(revString);
 
 	}
 	
@@ -17,9 +21,9 @@ public class reverseString {
 		
 		String rev = "";
 		
-		String[] splitName = name.split(" ");
+		String[] splitName = name.split("");
 		
-		for(int i=splitName.length+1 ; i>=0; i-- ) {
+		for(int i=splitName.length-1 ; i>=0; i-- ) {
 			
 			rev += splitName[i];
 			
