@@ -5,6 +5,7 @@ public class ObjectUnderstanding {
 	String empNameString;
 	int Age;
 	char MaleFemale;
+	static final int Hands = 2;
 	
 
 	public static void main(String[] args) {
@@ -40,6 +41,7 @@ public class ObjectUnderstanding {
 		System.out.println("The current Employee is " + ou2.empNameString + " "+ou2.Age+ " "+ou2.MaleFemale);
 		System.out.println("The current Employee is " + ou3.empNameString + " "+ou3.Age+ " "+ou3.MaleFemale);
 		System.out.println("The current Employee is " + ou4.empNameString + " "+ou4.Age+ " "+ou4.MaleFemale);
+		System.out.println(ObjectUnderstanding.Hands);
 		
 		System.out.println("---------------------------------------");
 	
