@@ -6,9 +6,12 @@ public class A {
 		// TODO Auto-generated method stub
 
 		
-char c = 'A';
-
-System.out.println((byte)c);
+	int i = 10;
+	
+	double d = 33.44;
+	
+	
+	System.out.println(i+d);
 
 
 		
