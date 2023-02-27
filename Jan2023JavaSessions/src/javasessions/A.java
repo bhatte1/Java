@@ -12,6 +12,8 @@ public class A {
 	
 	
 	System.out.println(i+d);
+	
+	System.out.println((double)'a');
 
 
 		
