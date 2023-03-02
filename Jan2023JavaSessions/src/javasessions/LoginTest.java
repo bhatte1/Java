@@ -11,7 +11,7 @@ public class LoginTest {
 		
 		ld.setUserName("Radhe");
 		
-		System.out.println(ld.getUserName());
+		System.out.println(ld.getUserName());  //getter and setter is used to update the username or password
 		
 		
 		
