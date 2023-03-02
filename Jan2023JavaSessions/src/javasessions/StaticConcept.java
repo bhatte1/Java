@@ -11,6 +11,7 @@ public class StaticConcept {
 		
 		location2();
 		
+		
 	}
 	public void location2() {
 		
@@ -24,7 +25,7 @@ public class StaticConcept {
 		
 		System.out.println(part1);
 		
-		location3();
+		StaticConcept.location3();
 		
 	}
 	
