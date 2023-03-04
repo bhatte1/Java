@@ -12,7 +12,22 @@ public class Person {
 		this.age = age;
 		this.gender = gender;
 		this.height = height;
+		
+		getData();
+		
 
+	}
+	
+	public Person(String name, int age) {
+		this.name = name;
+		this.age = age;
+		
+	}
+	
+	
+	private void getData() {
+		
+		System.out.println("Concept");
 	}
 
 }

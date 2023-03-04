@@ -12,6 +12,8 @@ public class PersonMain {
 		System.out.println(person.height);
 		System.out.println(person.name);
 		
+		
+		
 
 	}
 
