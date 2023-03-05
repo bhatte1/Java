@@ -15,10 +15,11 @@ public class Rectangle {
 		this.length = length;
 		this.width = width;
 		
-		calculateArea();
+		PersonMain pMain = new PersonMain();
+		pMain.getmethod();
 	}
 
-	private void calculateArea() {
+	public void calculateArea() {
 
 		double area = length * width;
 

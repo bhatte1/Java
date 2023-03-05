@@ -13,11 +13,19 @@ public class PersonMain {
 		System.out.println(person.name);
 		
 		
-		Rectangle rectangle = new Rectangle();
+		//Rectangle rectangle = new Rectangle();
 		//rectangle.calculateArea();
 		
 		Rectangle rectangle2 = new Rectangle(5, 2);
+		
+		
+		
 
+	}
+	
+	public void getmethod() {
+		
+		System.out.println("Print mu name");
 	}
 
 }
