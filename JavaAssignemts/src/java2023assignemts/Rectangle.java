@@ -1,38 +1,40 @@
 package java2023assignemts;
 
 public class Rectangle {
-	
+
 	double length;
 	double width;
-	
-	
+
 	public Rectangle() {
+		
+		System.out.println("Iam being called from rectangle");
+
 	}
-	
+
 	public Rectangle(double length, double width) {
 		this.length = length;
-		this.width = width;		
-	}
-	
-	
-	public double calculateArea() {
+		this.width = width;
 		
-		double area =  length*width;
-		
-		return area;
+		calculateArea();
 	}
-	
-	
+
+	private void calculateArea() {
+
+		double area = length * width;
+
+		System.out.println(area);
+	}
+
 	public static void main(String[] a) {
-		
+
 		Rectangle r = new Rectangle();
-		
-		System.out.println(r.calculateArea());
-		
+
+		r.calculateArea();
+
 		Rectangle r1 = new Rectangle(7.0, 3.0);
-		
-		System.out.println(r1.calculateArea());
-		
+
+		r1.calculateArea();
+
 	}
 
 }

@@ -11,6 +11,12 @@ public class PersonMain {
 		System.out.println(person.gender);
 		System.out.println(person.height);
 		System.out.println(person.name);
+		
+		
+		Rectangle rectangle = new Rectangle();
+		//rectangle.calculateArea();
+		
+		Rectangle rectangle2 = new Rectangle(5, 2);
 
 	}
 
