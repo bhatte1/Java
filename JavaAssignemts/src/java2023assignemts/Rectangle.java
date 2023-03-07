@@ -17,6 +17,8 @@ public class Rectangle {
 		
 		PersonMain pMain = new PersonMain();
 		pMain.getmethod();
+		
+		
 	}
 
 	public void calculateArea() {
@@ -24,6 +26,14 @@ public class Rectangle {
 		double area = length * width;
 
 		System.out.println(area);
+		
+	}
+	
+	public void calculatedArea(double height) {
+		
+		System.out.println(height);
+		
+		
 	}
 
 	public static void main(String[] a) {

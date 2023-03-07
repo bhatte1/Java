@@ -18,6 +18,8 @@ public class PersonMain {
 		
 		Rectangle rectangle2 = new Rectangle(5, 2);
 		
+		rectangle2.calculatedArea(45);
+		
 		
 		
 
@@ -25,7 +27,7 @@ public class PersonMain {
 	
 	public void getmethod() {
 		
-		System.out.println("Print mu name");
+		System.out.println("Print my name");
 	}
 
 }
