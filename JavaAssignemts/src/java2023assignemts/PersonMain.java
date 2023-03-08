@@ -18,7 +18,10 @@ public class PersonMain {
 		
 		Rectangle rectangle2 = new Rectangle(5, 2);
 		
-		rectangle2.calculatedArea(45);
+		rectangle2.calculateArea();
+		
+		rectangle2.length = 10;
+		rectangle2.calculateArea();
 		
 		
 		
