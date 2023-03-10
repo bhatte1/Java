@@ -21,7 +21,14 @@ public class PersonMain {
 		rectangle2.calculateArea();
 		
 		rectangle2.length = 10;
-		rectangle2.calculateArea();
+		
+		double area = rectangle2.calculateArea();
+		
+		int i = 5;
+		
+		int j = 10;
+		
+		Rectangle rectangle3 = new Rectangle(i,j);
 		
 		
 		

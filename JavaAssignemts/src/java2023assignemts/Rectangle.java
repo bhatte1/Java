@@ -22,18 +22,18 @@ public class Rectangle {
 	}
 
 //	public double getLength() {
-//		return length;
+//		return length;X
 //	}
 //
 //	public void setLength(double length) {
 //		this.length = length;
 //	}
 
-	public void calculateArea() {
+	public double calculateArea() {
 
 		double area = length * width;
 
-		System.out.println(area);
+		return area;
 		
 	}
 	
@@ -55,5 +55,8 @@ public class Rectangle {
 		r1.calculateArea();
 
 	}
+	
+	
+	
 
 }
