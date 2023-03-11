@@ -10,9 +10,13 @@ public class arrayExplanation {
 
 		arrayExplanation aExplanation = new arrayExplanation();
 		
-		aExplanation.getArray();
+//		aExplanation.getArray();
+//		
+//		aExplanation.getArrayList();
 		
-		aExplanation.getArrayList();
+		
+		aExplanation.getArrayPractice();
+		
 	}
 	
 	
@@ -48,6 +52,31 @@ public class arrayExplanation {
 			
 			System.out.println(a);
 		}
+		
+	}
+	
+	public void getArrayPractice() {
+		
+		ArrayList<Object> arrayList = new ArrayList<Object>();
+		
+		
+		arrayList.add("Vinayak");
+		arrayList.add(31);
+		arrayList.add(52500);
+		arrayList.add('M');
+		
+		
+		for(Object e: arrayList) {
+			System.out.println(e);
+		}
+		
+		arrayList.add(4, "Radhe");
+		
+		for(int i = 0; i < arrayList.size(); i++) {
+			
+			System.out.println(arrayList.get(i));
+		}
+
 		
 	}
 	
