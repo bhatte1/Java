@@ -8,11 +8,12 @@ public class EmployeeList {
 	String city;
 	static String country;
 
-	public EmployeeList(String employeeName, int employeAge, double employeeSalary, String city) {
+	public EmployeeList(String employeeName, int employeAge, double employeeSalary, String city, String country) {
 		this.employeeName = employeeName;
 		this.employeAge = employeAge;
 		this.employeeSalary = employeeSalary;
 		this.city = city;
+		EmployeeList.country = country;
 	}
 
 	public EmployeeList(String employeeName, int employeAge) {
@@ -37,7 +38,8 @@ public class EmployeeList {
 
 		System.out.println("Emplyee age is: " + employeAge);
 		
-		getStaticEmployeeDetails();
+		getEmployeeFullDetails();
+		
 
 	}
 
@@ -46,6 +48,8 @@ public class EmployeeList {
 		System.out.println("Employee sailary is: "+employeeSalary);
 		
 		System.out.println("Employee city residence is: "+ city);
+		
+		getStaticEmployeeDetails();
 	}
 	
 	public void getEmployeeOverallDetail() {
