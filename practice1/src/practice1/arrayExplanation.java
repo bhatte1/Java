@@ -16,7 +16,15 @@ public class arrayExplanation {
 //		aExplanation.getArrayList();
 		
 		
-		aExplanation.getArrayPractice();
+		//aExplanation.getArrayPractice();
+		
+		ArrayList<String> empList = aExplanation.getEmlpoyeeList("MS");
+		
+		System.out.println(empList);
+		
+		
+		
+		
 		
 	}
 	
@@ -78,6 +86,30 @@ public class arrayExplanation {
 			System.out.println(arrayList.get(i));
 		}
 
+		
+	}
+	
+	public ArrayList<String> getEmlpoyeeList(String compName) {
+		
+		ArrayList<String> empName = new ArrayList<String>();
+		
+		if(compName.toLowerCase().trim().equals("IBM")){
+			 
+			ArrayList<String> empName1 = new ArrayList<String>();
+			
+		}
+
+		else if(compName.toLowerCase().trim().equals("MS")){
+	
+				ArrayList<String> empName1 = new ArrayList<String>(Arrays.asList("Raj","kajol", "Sita"));
+
+			}
+	
+		return empName1;
+			
+			
+		}
+		
 		
 	}
 	
