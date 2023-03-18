@@ -105,7 +105,7 @@ public class arrayExplanation {
 
 			}
 	
-		return empName1;
+		return empName;
 			
 			
 		}
@@ -114,8 +114,8 @@ public class arrayExplanation {
 	}
 	
 	
-	 
+
 	
 	
 
-}
+
