@@ -21,6 +21,10 @@ public class StringMethods {
 		System.out.println(t.toUpperCase());
 		System.out.println(t.toLowerCase());
 		
+		String browser = "  Chrome ";
+		if(browser.trim().equalsIgnoreCase("chrome")) {
+			System.out.println("PASS");
+		}
 	}
 
 }
