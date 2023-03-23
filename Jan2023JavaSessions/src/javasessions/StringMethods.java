@@ -1,5 +1,7 @@
 package javasessions;
 
+import java.util.Arrays;
+
 public class StringMethods {
 
 	public static void main(String[] args) {
@@ -24,7 +26,30 @@ public class StringMethods {
 		String browser = "  Chrome ";
 		if(browser.trim().equalsIgnoreCase("chrome")) {
 			System.out.println("PASS");
+			
+			
 		}
+		
+		
+		//split:
+				String lang = "JAVA_PYTHON_DOTNET_RUBY";
+				String l[] = lang.split("_");
+				
+				System.out.println(l[0]);
+				System.out.println(l[1]);
+
+				System.out.println(Arrays.toString(l));
+				
+				
+				String pop = "xXseleniumxXXtestingXxXJavaXxXpythonX";
+				String d[] = pop.split("xX");
+				System.out.println(d[0].length());
+				System.out.println(d[1]);
+				System.out.println(d[2]);
+				System.out.println(d[3]);
+				System.out.println(d[4]);
+				System.out.println(Arrays.toString(d));
+				
 	}
 
 }
