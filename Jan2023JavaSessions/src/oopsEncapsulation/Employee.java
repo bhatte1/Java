@@ -11,18 +11,22 @@ public class Employee {
 	
 	
 	
-	public Employee(String name, int age) {
+	public Employee(String name1, int age1) {
 		
-		this.name = name;
-		this.age = age;
+		this.name = name1;
+		this.age = age1;
 		
 	}
 	
 	public void getEmployeeData() {
 		
+		
 		System.out.println(name + " " + age);
 		
 	}
+	
+	
+	
 	
 	
 	
