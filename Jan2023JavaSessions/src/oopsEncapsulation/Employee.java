@@ -18,6 +18,14 @@ public class Employee {
 		
 	}
 	
+	public String setName(String name) {
+		
+		this.name = name;
+		
+		return name;
+		
+	}
+	
 	public void getEmployeeData() {
 		
 		

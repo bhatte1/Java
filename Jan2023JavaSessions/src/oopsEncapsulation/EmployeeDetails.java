@@ -12,6 +12,12 @@ public class EmployeeDetails {
 		
 		employee.getEmployeeData();
 		
+		employee.setName("aarush");
+		
+		System.out.println(employee.setName("aarush"));
+		
+		
+		
 		
 		
 		EmployeeDetails employeeDetails = new EmployeeDetails();
