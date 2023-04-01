@@ -3,9 +3,15 @@ package practice2;
 public class BMW extends Car {
 	
 	
+	public BMW() {
+		//super();
+		System.out.println("BMW Const");
+	}
+	
+	
 	@Override
 	public void start() {
-
+		
 		System.out.println("BMW -- Start");
 	}
 
