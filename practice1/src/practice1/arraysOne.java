@@ -17,17 +17,17 @@ public class arraysOne {
 
 	public ArrayList<String> getEmlpoyeeList(String compName) {
 
-		// ArrayList<String> empName = new ArrayList<String>();
+		ArrayList<String> empName = null;
 
-		if (compName.toLowerCase().trim().equals("IBM")) {
+		if (compName.equals("IBM")) {
 
-			ArrayList<String> empName = new ArrayList<String>(Arrays.asList("Vinayak", "Bhatte"));
+			empName = new ArrayList<String>(Arrays.asList("Vinayak", "Bhatte"));
 
 		}
 
-		else if (compName.toLowerCase().trim().equals("MS")) {
+		else if (compName.equals("MS")) {
 
-			ArrayList<String> empName = new ArrayList<String>(Arrays.asList("Raj", "kajol", "Sita"));
+			empName = new ArrayList<String>(Arrays.asList("Raj", "kajol", "Sita"));
 
 		}
 

@@ -14,5 +14,9 @@ public class Car extends Vehicle {
 	public void stop() {
 		System.out.println("Car -- Stop");
 	}
+	
+	public void brakes() {
+		System.out.println("Car -- brakes");
+	}
 
 }

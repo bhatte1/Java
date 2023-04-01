@@ -24,5 +24,10 @@ public class BMW extends Car {
 	public void wheels() {
 		System.out.println("BMW has --- aluminum four wheels");
 	}
+	
+	
+	public void brakes() {
+		System.out.println("BMW ---- brakes");
+	}
 
 }
