@@ -32,6 +32,13 @@ public class EmployeeList {
 	
 	
 
+	public EmployeeList(String employeeName, int employeAge, double employeeSalary, String city) {
+		this.employeeName = employeeName;
+		this.employeAge = employeAge;
+		this.employeeSalary = employeeSalary;
+		this.city = city;
+	}
+
 	public void getEmployeeData() {
 
 		System.out.println("Emplyee name is: " + employeeName);
