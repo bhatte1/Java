@@ -9,8 +9,10 @@ public class stringManupulation {
 		// TODO Auto-generated method stub
 		
 		stringManupulation sm = new stringManupulation();
-		sm.getStringManupulated();
+		//sm.getStringManupulated();
 
+		
+		sm.getString("Vinayak");
 	}
 	
 	
@@ -30,6 +32,20 @@ public class stringManupulation {
 		System.out.println(arrayList);
 		
 		System.out.println(joinArrayList);
+		
+		
+	}
+	
+	
+	public void getString(String string) {
+		String string1 = "Vinayak";
+		
+		if(string1 == string) {
+			System.out.println("Pass");
+		}
+		else {
+			System.out.println("Fail");
+		}
 		
 		
 	}
