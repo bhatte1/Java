@@ -18,6 +18,8 @@ public class seleniumProject1 {
 		driver = new ChromeDriver();
 		driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/register");
 		
+
+		
 		
 		
 		
