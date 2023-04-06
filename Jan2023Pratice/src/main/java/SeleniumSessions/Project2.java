@@ -17,8 +17,7 @@ public class Project2 {
 	public static void main(String[] args) {
 		
 		BrowserUtils bu = new BrowserUtils();
-		
-		
+
 		driver =  bu.browserName("chrome");
 		
 		driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/register");
