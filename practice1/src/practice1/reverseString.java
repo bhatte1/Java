@@ -1,5 +1,6 @@
 package practice1;
 
+import java.util.Arrays;
 
 public class reverseString {
 	
@@ -21,6 +22,8 @@ public static String getReversed(String name) {
 		
 		String[] splitName = name.split("");
 		
+		System.out.println(splitName.length);
+		
 		for(int i=splitName.length-1 ; i>=0; i-- ) {
 			
 			rev += splitName[i];
@@ -31,6 +34,21 @@ public static String getReversed(String name) {
 				
 		
 	}
+
+//java python selenium
+
+public static void revString(String st) {
+	
+	String revString = "";
+	
+	String splitString[] = st.split(" ");
+	
+	
+	
+	
+	
+	
+}
 	
 
 	public static void main(String[] args) {
@@ -38,11 +56,11 @@ public static String getReversed(String name) {
 		
 		reverseString rs = new reverseString();
 		
-		//System.out.print(Arrays.toString(rs.getReversed("Vinayak")));
+		System.out.print(rs.getReversed("java python selenium"));
 		
-		String revString = rs.getReversed(null);
+		//String revString = rs.getReversed(null);
 		
-		System.out.println(revString);
+		//System.out.println(revString);
 
 	}
 	
