@@ -11,10 +11,12 @@ public class StringManipulation2 {
 		
 		String s = "dkfhkerjhgprieogurephvobnlegrvinayakpofoepirljlrjo";
 		
-		String s1[] = s.split("");
+		//String s1[] = s.split("");
 		
 		
 		System.out.println(s.indexOf("v"));
+		
+		System.out.println(s.substring(s.indexOf("v"), s.indexOf("v")+1));
 			
 			
 			
