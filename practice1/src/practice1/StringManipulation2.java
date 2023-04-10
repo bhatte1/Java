@@ -17,6 +17,11 @@ public class StringManipulation2 {
 		System.out.println(s.indexOf("v"));
 		
 		System.out.println(s.substring(s.indexOf("v"), s.indexOf("v")+1));
+		
+		
+		System.out.println(s.charAt(23));
+		
+		System.out.println(s.contains("vinayak"));
 			
 			
 			
