@@ -14,14 +14,27 @@ public class StringManipulation2 {
 		//String s1[] = s.split("");
 		
 		
-		System.out.println(s.indexOf("v"));
+//		System.out.println(s.indexOf("v"));
+//		
+//		System.out.println(s.substring(s.indexOf("v"), s.indexOf("v")+1));
+//		
+//		
+//		System.out.println(s.charAt(23));
 		
-		System.out.println(s.substring(s.indexOf("v"), s.indexOf("v")+1));
+		String searchWord = "Vinayak";
+		
+		if(s.contains(searchWord.toLowerCase())) {
+			
+			int startIndex = s.indexOf("vinayak");
+			
+			System.out.println(s.substring(startIndex,startIndex +searchWord.length()));
+			
+			
+		}
 		
 		
-		System.out.println(s.charAt(23));
 		
-		System.out.println(s.contains("vinayak"));
+		
 			
 			
 			
