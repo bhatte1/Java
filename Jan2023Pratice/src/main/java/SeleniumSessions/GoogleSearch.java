@@ -53,7 +53,7 @@ public class GoogleSearch {
 
 					break;
 				}
-				
+				 
 				} else {
 					System.out.println("Blank values");
 					break;
