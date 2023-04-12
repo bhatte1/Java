@@ -30,6 +30,7 @@ public class PolymorphismConcept {
 		pc.search();
 		pc.search(10);
 		System.out.println(PolymorphismConcept.search("Vinayak"));
+		System.out.println(search("Bhatte"));
 		
 
 	}
