@@ -1,5 +1,7 @@
 package SeleniumSessions;
 
+import javax.xml.xpath.XPath;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,13 +13,25 @@ public class WebTableHandle {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
+//		driver = new ChromeDriver();
+//		driver.get("https://selectorshub.com/xpath-practice-page/");
+//		
+//		Thread.sleep(3000);
+//		
+//		
+//		driver.findElement(By.xpath("//a[text()='John.Smith']/parent::td/preceding-sibling::td/input")).click();
+		
 		driver = new ChromeDriver();
-		driver.get("https://selectorshub.com/xpath-practice-page/");
+		driver.get("https://classic.crmpro.com/");
+		Thread.sleep(4000);
 		
-		Thread.sleep(3000);
+		driver.findElement(By.name("username")).sendKeys("newautomation");
+		driver.findElement(By.name("password")).sendKeys("Selenium@12345");
+		driver.findElement(By.xpath("//input[@value='Login']")).click();
 		
+		driver.switchTo().frame("mainpanel");
+		driver.findElement(By.xpath("//a[text()='Contacts']")).click();
 		
-		driver.findElement(By.xpath("//a[text()='John.Smith']/parent::td/preceding-sibling::td/input")).click();
 		
 		
 	}
