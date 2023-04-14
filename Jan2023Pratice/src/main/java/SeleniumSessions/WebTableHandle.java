@@ -1,9 +1,13 @@
 package SeleniumSessions;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.xml.xpath.XPath;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebTableHandle {
@@ -31,6 +35,21 @@ public class WebTableHandle {
 		
 		driver.switchTo().frame("mainpanel");
 		driver.findElement(By.xpath("//a[text()='Contacts']")).click();
+		
+		
+	List<WebElement> detailsElements =	driver.findElements(By.xpath("//a[text()='Ali khan']/parent::td/following-sibling::td"));
+	
+	List<String> details = new ArrayList<String>();
+	
+	
+	for(WebElement e:detailsElements) {
+		String element = e.getText();		
+		details.add(element);
+	}
+	
+	System.out.println(details);
+		
+		
 		
 		
 		
