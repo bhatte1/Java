@@ -52,6 +52,10 @@ public class WebTableHandle {
 			}
 
 		}
+		
+		if(details.get(0).equals("Google")){
+			System.out.println("Google is printed");
+		}
 
 		System.out.println(details);
 
