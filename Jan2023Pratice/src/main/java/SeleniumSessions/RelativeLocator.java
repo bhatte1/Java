@@ -11,18 +11,37 @@ public class RelativeLocator {
 
 static WebDriver driver;
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		BrowserUtils bu = new BrowserUtils();
 
 		driver =  bu.browserName("chrome");
 		
-		driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/register");
+		driver.get("https://www.aqi.in/dashboard/canada");
 		
-		WebElement element = driver.findElement(By.name("newsletter"));
-		
-		
-		driver.findElement(with(By.tagName("label")).toLeftOf(element)).click();
+		Thread.sleep(3000);
+
+		WebElement ele = driver.findElement(By.linkText("Burlington, Canada"));
+
+		// right of ele -->
+		String rightScore = driver.findElement(with(By.tagName("p")).toRightOf(ele)).getText();
+		System.out.println(rightScore);
+
+		// left of ele-->
+		String leftIndex = driver.findElement(with(By.tagName("p")).toLeftOf(ele)).getText();
+		System.out.println(leftIndex);
+
+		// below of ele--->
+		String belowCity = driver.findElement(with(By.tagName("p")).below(ele)).getText();
+		System.out.println(belowCity);
+
+		// above of ele--->
+		String aboveCity = driver.findElement(with(By.tagName("p")).above(ele)).getText();
+		System.out.println(aboveCity);
+
+		//near of ele:
+		String nearCity = driver.findElement(with(By.tagName("p")).near(ele)).getText();
+		System.out.println(nearCity);
 	}
 
 }
