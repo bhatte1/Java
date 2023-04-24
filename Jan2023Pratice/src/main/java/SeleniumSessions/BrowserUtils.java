@@ -15,7 +15,7 @@ public class BrowserUtils {
 	
 	public WebDriver browserName(String browser){
 
-	switch(browser) {
+	switch(browser.toLowerCase()) {
 	
 	case "chrome":
 		driver = new ChromeDriver();

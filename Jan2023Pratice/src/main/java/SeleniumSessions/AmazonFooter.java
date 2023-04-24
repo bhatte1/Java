@@ -17,7 +17,7 @@ public class AmazonFooter {
 //		driver.get("https://www.amazon.com/");
 		
 		BrowserUtils brUtil = new BrowserUtils();
-		WebDriver driver = brUtil.browserName("Chrome"); 
+		driver = brUtil.browserName("Chrome"); 
 				
 				
 		driver.get("https://www.amazon.com/");
