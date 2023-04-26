@@ -21,9 +21,7 @@ public class StringAssignemt1 {
 		
 		for(char e:n) {
 			
-			
-			
-			if( e == 'e' && name.indexOf('e')>= 0) {
+			if( e == 'e') {
 				temp += 1;
 				
 				if(temp == 3) {
