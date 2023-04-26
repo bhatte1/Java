@@ -21,13 +21,13 @@ public class StringAssignemt1 {
 		
 		for(char e:n) {
 			
-			System.out.println(e);
+			
 			
 			if( e == 'e' && name.indexOf('e')>= 0) {
 				temp += 1;
 				
 				if(temp == 3) {
-					char eCharacter = name.charAt(e);
+					char eCharacter = name.charAt(name.indexOf('e'));
 					System.out.println(eCharacter);
 					break;
 				}
