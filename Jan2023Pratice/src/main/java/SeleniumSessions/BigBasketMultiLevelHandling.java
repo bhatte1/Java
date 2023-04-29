@@ -43,6 +43,11 @@ public class BigBasketMultiLevelHandling {
 		Thread.sleep(1000);
 
 		driver.findElement(By.linkText(level4LinkText)).click();
+		
+		String titleNameString = driver.getTitle();
+		
+		System.out.println(titleNameString);
+		
 	}
 
 
