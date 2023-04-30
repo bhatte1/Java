@@ -21,6 +21,7 @@ public class BrowserWindowHandleConcept {
 		Thread.sleep(3000);
 		
 		driver.findElement(By.xpath("//a[contains(@href,'twitter')]")).click();
+		driver.findElement(By.xpath("//a[contains(@href, 'linkedin')]")).click();
 		
 		//parent(driver) + child windows
 		
@@ -29,14 +30,21 @@ public class BrowserWindowHandleConcept {
 		
 		String parentWindowId = it.next();
 		String childWindowId = it.next();
+		String linkedinWindowId = it.next();
 		
 		System.out.println("parent window id: " + parentWindowId);
 		System.out.println("child window id: " + childWindowId);
+		System.out.println("linkdin windw id: "+ linkedinWindowId);
 		
 		//switching work:
 		driver.switchTo().window(childWindowId);
 		System.out.println("child window url : " + driver.getCurrentUrl());//twitter url
 		driver.close();	//close child window
+		
+		driver.switchTo().window(linkedinWindowId);
+		System.out.println("linkdin windw id : " + driver.getCurrentUrl());//twitter url
+		driver.close();
+		
 		
 		driver.switchTo().window(parentWindowId);//back to parent window
 		System.out.println("parent window url : " + driver.getCurrentUrl());//orangehrm url
