@@ -42,7 +42,7 @@ public class BrowserWindowHandleConcept {
 		driver.close();	//close child window
 		
 		driver.switchTo().window(linkedinWindowId);
-		System.out.println("linkdin windw id : " + driver.getCurrentUrl());//twitter url
+		System.out.println("linkdin windw url : " + driver.getCurrentUrl());//twitter url
 		driver.close();
 		
 		
