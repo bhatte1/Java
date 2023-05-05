@@ -27,6 +27,8 @@ public class WaitForAlerts {
 //		alert.accept();
 		
 		System.out.println(alertJSGetText(5));
+		
+		alertAccpet(5);
 	}
 	
 	public static Alert waitForAlertJsPopUp(int timeOut) {
