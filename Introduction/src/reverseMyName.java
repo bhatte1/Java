@@ -6,7 +6,7 @@ public class reverseMyName {
 		
 
 		
-		String name = "mom";
+		String name = "moma";
 		
 		reverseMyName rev = new reverseMyName();
 		

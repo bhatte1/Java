@@ -9,7 +9,7 @@ public class hashSetExample {
 		//Hash set does not gurantee order 
 		HashSet<String> hs = new HashSet<String>();
 		
-		hs.add("Vinayak");
+		hs.add("Vi nayak");
 		hs.add("Bhatte");
 		hs.add("Meenakshi");
 		hs.remove("Vinayak");
