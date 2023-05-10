@@ -35,6 +35,7 @@ public class SessionSD {
 //		BT - wd d = new CD()//123
 //		test -- //123
 //		AT -- driver.quit, null
+		driver.close();
 		
 		
 		
