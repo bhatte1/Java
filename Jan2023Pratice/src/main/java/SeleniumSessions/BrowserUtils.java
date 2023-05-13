@@ -36,9 +36,25 @@ public class BrowserUtils {
 	}
 	return driver;
 	
-	
-	
-	
 	}
+	
+	
+	public void launchURL(String URL) {
+		driver.get(URL);
+		}
+	
+	public String getPageTitle() {
+		
+		return driver.getTitle();
+	}
+	
+	public String getPageURL() {
+		
+		return driver.getCurrentUrl();	}
+	
+	public void quitBrowser() {
+		driver.quit();
+	}
+	
 
 }
