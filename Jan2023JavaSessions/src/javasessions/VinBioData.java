@@ -10,7 +10,8 @@ public class VinBioData {
 		HashMap<String, String> vinayakBioDataMap = new HashMap<String,String>();
 		
 		
-		vinayakBioDataMap.put("Name", "Vinayak");
+		vinayakBioDataMap.put("Name1", "Vinayak");
+		vinayakBioDataMap.put("Name2","Megha");
 		
 		
 		
