@@ -53,7 +53,7 @@ public class StackMemory {
 	public void m3() {
 		System.out.println("m3 method");
 		// m1();
-		StackMemory.t1();
+		//StackMemory.t1();
 	}
 
 	public static void main(String[] args) {
