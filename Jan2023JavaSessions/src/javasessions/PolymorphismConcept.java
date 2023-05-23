@@ -4,7 +4,7 @@ public class PolymorphismConcept {
 	
 	
 	public void search() {
-		
+		m1();
 	}
 	
 	
@@ -18,6 +18,10 @@ public class PolymorphismConcept {
 		return s;
 		
 		
+	}
+	
+	public void m1() {
+		System.out.println("m1");
 	}
 	
 	//polymorphism is nothing but method overloading
