@@ -21,7 +21,7 @@ public class PolymorphismConcept {
 	}
 	
 	public void m1() {
-		System.out.println("m1");
+		System.out.println("My Name is");
 	}
 	
 	//polymorphism is nothing but method overloading
@@ -32,7 +32,6 @@ public class PolymorphismConcept {
 		PolymorphismConcept pc = new PolymorphismConcept();
 		
 		pc.search();
-		pc.search(10);
 		System.out.println(PolymorphismConcept.search("Vinayak"));
 		System.out.println(search("Bhatte"));
 		
