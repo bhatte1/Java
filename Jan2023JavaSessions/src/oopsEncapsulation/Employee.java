@@ -32,6 +32,16 @@ public class Employee {
 		System.out.println(name + " " + age);
 		
 	}
+
+	public int getAge() {
+		age += 1;
+		
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
 	
 	
 	

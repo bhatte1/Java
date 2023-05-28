@@ -14,6 +14,10 @@ public class EmployeeDetails {
 		
 		employee.setName("aarush");
 		
+		employee.setAge(30);
+		
+		System.out.println(employee.getAge());
+		
 		System.out.println(employee.setName("aarush"));
 		
 		
