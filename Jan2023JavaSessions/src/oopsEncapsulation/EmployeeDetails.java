@@ -8,7 +8,9 @@ public class EmployeeDetails {
 		// TODO Auto-generated method stub
 		
 		
-		Employee employee = new Employee("Vianayk", 31);
+		//Employee employee = new Employee("Vianayk", 31);
+		
+		Employee employee = new Employee("radhe", 31, 10000, 'm');
 		
 		employee.getEmployeeData();
 		

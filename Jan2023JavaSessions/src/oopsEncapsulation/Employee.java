@@ -39,6 +39,14 @@ public class Employee {
 		return age;
 	}
 
+	public Employee(String name, int age, double salary, char sex) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.salary = salary;
+		this.sex = sex;
+	}
+
 	public void setAge(int age) {
 		this.age = age;
 	}
