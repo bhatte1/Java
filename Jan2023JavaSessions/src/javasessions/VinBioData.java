@@ -12,6 +12,8 @@ public class VinBioData {
 		
 		vinayakBioDataMap.put("Name1", "Vinayak");
 		vinayakBioDataMap.put("Name2","Megha");
+		vinayakBioDataMap.put("Age", "31");
+		vinayakBioDataMap.put("Status", "Single");
 		
 		
 		
