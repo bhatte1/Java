@@ -119,6 +119,7 @@ public class DynamicArray {
 		nameStrings.add("Radhe");
 		nameStrings.add("Vinayak");
 		nameStrings.remove(0);
+		nameStrings.remove(0);
 		
 		System.out.println(nameStrings);
 		
