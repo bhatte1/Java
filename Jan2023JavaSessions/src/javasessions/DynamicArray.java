@@ -113,6 +113,15 @@ public class DynamicArray {
 				
 		}
 		
+		ArrayList<String> nameStrings = new ArrayList<String>();
+		
+		
+		nameStrings.add("Radhe");
+		nameStrings.add("Vinayak");
+		nameStrings.remove(0);
+		
+		System.out.println(nameStrings);
+		
 		//LF - load factor--> pc/2 --> size()/2
 		//vc = 10, pc = 0
 		//pc = 10, vc = 0, lastindex=0-9
