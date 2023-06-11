@@ -96,6 +96,7 @@ public class StringMethods {
 				String mg = "your transaction id is 12345";
 				System.out.println(mg.substring(0, 9));//0-8
 				System.out.println(mg.substring(mg.indexOf("is")+2, mg.length()).trim());
+				System.out.println(mg.startsWith("your"));
 				
 	}
 
