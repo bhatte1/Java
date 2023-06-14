@@ -99,6 +99,7 @@ public class StringMethods {
 				System.out.println(mg.startsWith("your"));
 				System.out.println(mg.charAt(10));
 				System.out.println(mg.concat(" 3456"));
+				System.out.println(mg.endsWith("12345"));
 				
 	}
 
